@@ -117,9 +117,7 @@ Aditya Sinha
 
 ## ⭐ Note
 
-<<<<<<< HEAD
+
 This repository will be updated frequently as the extension development progresses.
-=======
-This project is being developed step-by-step as part of learning browser extension development and improving JavaScript skills. New features will be added regularly.
->>>>>>> 770873d739a07d6bc17625303b7ee60e2681b00a
+
 
