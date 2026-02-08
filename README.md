@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Read-loud-Extension
-A simple browser extension that reads selected text on any webpage aloud using built-in text-to-speech. This project demonstrates basic extension development using HTML, CSS, JavaScript, and browser APIs.
-=======
 # 🔊 Read Aloud Extension (Work in Progress)
 
 This is a beginner browser extension project that will read selected text on a webpage aloud using text-to-speech.
@@ -92,4 +88,4 @@ Aditya Sinha
 ## ⭐ Note
 
 This repository will be updated frequently as the extension development progresses.
->>>>>>> c10f24896f3fa940cbcc301591ca656ce5da1c37
+
