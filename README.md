@@ -1,48 +1,48 @@
-<<<<<<< HEAD
-# Read-loud-Extension
-A simple browser extension that reads selected text on any webpage aloud using built-in text-to-speech. This project demonstrates basic extension development using HTML, CSS, JavaScript, and browser APIs.
-=======
 # 🔊 Read Aloud Extension (Work in Progress)
 
-This is a beginner browser extension project that will read selected text on a webpage aloud using text-to-speech.
+A simple browser extension that reads selected text on any webpage aloud using the browser's built-in text-to-speech feature.
 
-The project is currently in the initial development stage. The UI structure and project setup have been created, and functionality will be added gradually.
+⚠ Currently, the extension supports **English language only**. Support for additional languages will be added in future updates.
 
 ---
 
 ## 📌 Current Status
 
-🚧 Project is under development
+🚧 Project is under active development
 
-Completed:
-- Basic extension folder structure
+### ✅ Completed
+- Extension folder structure setup
 - Popup UI design using HTML and CSS
-- Manifest file setup
-- GitHub repository setup
+- Manifest configuration
+- Popup to Content Script communication
+- Basic text-to-speech functionality
+- Chrome extension successfully working
 
-In Progress:
-- JavaScript functionality
-- Text selection detection
-- Text-to-Speech integration
+### 🔄 In Progress
+- Improving speech reliability
+- UI enhancements
+- Adding better user controls
 
 ---
 
 ## 🎯 Project Goal
 
-To build a simple browser extension that can:
+To build a simple and user-friendly browser extension that can:
 
 - Read selected text from any webpage
-- Provide basic speech controls
-- Demonstrate browser extension development concepts
+- Provide speech control features
+- Support multiple languages
+- Demonstrate real-world extension development
 
 ---
 
-## 🛠️ Technologies Used (Learning Phase)
+## 🛠️ Technologies Used
 
 - HTML
 - CSS
-- JavaScript (Upcoming)
-- Chrome Extension APIs (Upcoming)
+- JavaScript
+- Chrome Extension APIs
+- Speech Synthesis API
 
 ---
 
@@ -53,33 +53,59 @@ Read-Aloud-Extension
 ├── manifest.json
 ├── popup.html
 ├── popup.css
-├── popup.js (Under Development)
-├── content.js (Under Development)
+├── popup.js
+├── content.js
 └── README.md
 
 
 
 ---
 
-## 🚀 Development Plan
+## 🚀 How To Use
 
-Planned features:
-
-- Detect selected text on webpage
-- Convert text to speech
-- Add start/stop controls
-- Improve UI and user experience
+1. Download or clone this repository
+2. Open Chrome browser
+3. Go to `chrome://extensions/`
+4. Enable **Developer Mode**
+5. Click **Load Unpacked**
+6. Select the project folder
+7. Open any webpage
+8. Select text
+9. Click the extension icon
+10. Press **Read Selected Text**
 
 ---
 
-## 📈 Progress Approach
+## 🌐 Language Support
 
-This project is being built step-by-step to learn:
+✅ English (Currently Supported)  
+🔜 Multiple language support coming soon
 
-- Browser extension architecture
-- DOM interaction
-- JavaScript event handling
-- Browser speech APIs
+---
+
+## 📈 Development Roadmap
+
+### Version 0.1 ✅
+- Extension structure
+- Popup UI
+- Manifest setup
+
+### Version 0.2 ✅
+- Basic working speech extension
+- Popup to content script communication
+
+### Version 0.3 (Planned)
+- Speech pause and stop improvements
+- Better error handling
+
+### Version 0.4 (Planned)
+- Voice selection
+- Speech speed control
+
+### Version 1.0 (Goal)
+- Multi-language support
+- Improved UI/UX
+- Full feature stable release
 
 ---
 
@@ -91,5 +117,5 @@ Aditya Sinha
 
 ## ⭐ Note
 
-This repository will be updated frequently as the extension development progresses.
->>>>>>> c10f24896f3fa940cbcc301591ca656ce5da1c37
+This project is being developed step-by-step as part of learning browser extension development and improving JavaScript skills. New features will be added regularly.
+
