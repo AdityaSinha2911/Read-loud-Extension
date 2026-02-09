@@ -1,6 +1,8 @@
 // UPDATED VERSION 0.3 CODE
 // error handling and improved speech added
 
+// version update
+
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
     try {
