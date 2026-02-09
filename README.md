@@ -94,9 +94,12 @@ Read-Aloud-Extension
 - Basic working speech extension
 - Popup to content script communication
 
-### Version 0.3 (Planned)
+### Version 0.3 ✅
 - Speech pause and stop improvements
 - Better error handling
+
+
+(Still in progress-- buttons are added, some problem with their funcionallities)
 
 ### Version 0.4 (Planned)
 - Voice selection
