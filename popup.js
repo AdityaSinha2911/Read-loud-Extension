@@ -14,6 +14,25 @@ document.getElementById("readBtn").addEventListener("click", () => {
 
 });
 
+// pause and resume button add 
+
+document.getElementById("pauseBtn").addEventListener("click", () => {
+
+    if (speechSynthesis.speaking && !speechSynthesis.paused) {
+        speechSynthesis.pause();
+    }
+
+});
+
+
+document.getElementById("resumeBtn").addEventListener("click", () => {
+
+    if (speechSynthesis.paused) {
+        speechSynthesis.resume();
+    }
+
+});
+
 
 
 document.getElementById("stopBtn").addEventListener("click", () => {

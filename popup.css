@@ -44,3 +44,23 @@ button {
     font-size: 13px;
     color: #555;
 }
+
+
+/* version 0.3 */
+#pauseBtn {
+    background-color: #ffa726;
+    color: white;
+}
+
+#pauseBtn:hover {
+    background-color: #fb8c00;
+}
+
+#resumeBtn {
+    background-color: #29b6f6;
+    color: white;
+}
+
+#resumeBtn:hover {
+    background-color: #039be5;
+}
