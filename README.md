@@ -1,16 +1,16 @@
-# 🔊 Read Aloud Extension (Work in Progress)
+#  Read Aloud Extension (Work in Progress)
 
 A simple browser extension that reads selected text on any webpage aloud using the browser's built-in text-to-speech feature.
 
-⚠ Currently, the extension supports **English language only**. Support for additional languages will be added in future updates.
+ Currently, the extension supports **English language only**. Support for additional languages will be added in future updates.
 
 ---
 
 ## 📌 Current Status
 
-🚧 Project is under active development
+ Project is under active development
 
-### ✅ Completed
+###  Completed
 - Extension folder structure setup
 - Popup UI design using HTML and CSS
 - Manifest configuration
@@ -18,14 +18,14 @@ A simple browser extension that reads selected text on any webpage aloud using t
 - Basic text-to-speech functionality
 - Chrome extension successfully working
 
-### 🔄 In Progress
+###  In Progress
 - Improving speech reliability
 - UI enhancements
 - Adding better user controls
 
 ---
 
-## 🎯 Project Goal
+##  Project Goal
 
 To build a simple and user-friendly browser extension that can:
 
@@ -36,7 +36,7 @@ To build a simple and user-friendly browser extension that can:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML
 - CSS
@@ -46,7 +46,7 @@ To build a simple and user-friendly browser extension that can:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 Read-Aloud-Extension
 │
@@ -61,7 +61,7 @@ Read-Aloud-Extension
 
 ---
 
-## 🚀 How To Use
+##  How To Use
 
 1. Download or clone this repository
 2. Open Chrome browser
@@ -76,7 +76,7 @@ Read-Aloud-Extension
 
 ---
 
-## 🌐 Language Support
+##  Language Support
 
 ✅ English (Currently Supported)  
 🔜 Multiple language support coming soon
@@ -85,16 +85,16 @@ Read-Aloud-Extension
 
 ## 📈 Development Roadmap
 
-### Version 0.1 ✅
+### Version 0.1 --(Completed)
 - Extension structure
 - Popup UI
 - Manifest setup
 
-### Version 0.2 ✅
+### Version 0.2 --(Completed)
 - Basic working speech extension
 - Popup to content script communication
 
-### Version 0.3 ✅
+### Version 0.3 --(Completed)
 - Speech pause and stop improvements
 - Better error handling
 
@@ -112,13 +112,13 @@ Read-Aloud-Extension
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Aditya Sinha
 
 ---
 
-## ⭐ Note
+##  Note
 
 
 This repository will be updated frequently as the extension development progresses.
