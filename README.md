@@ -1,40 +1,41 @@
-#  Read Aloud Extension 
+# Read Aloud Extension
 
-A simple browser extension that reads selected text on any webpage aloud using the browser's built-in text-to-speech feature.
+A simple Chrome extension that reads selected text from webpages aloud.
 
+## Features
 
+- Read selected text
+- Pause, resume, and stop speech
+- Choose a voice
+- Change reading speed (0.5x to 2x)
+- Save voice and speed preferences
+- Use keyboard shortcuts
 
-##  Project Goal
+## Keyboard Shortcuts
 
-To build a simple and user-friendly browser extension that can:
+- `Alt + Shift + R` — Read selected text
+- `Alt + Shift + P` — Pause or resume
+- `Alt + Shift + S` — Stop reading
 
-- Read selected text from any webpage
-- Provide speech control features
-- Support multiple languages
-- Demonstrate real-world extension development
+## How to Install
 
-##  How To Use
+1. Download or clone this repository.
+2. Open Chrome and visit `chrome://extensions/`.
+3. Turn on **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the project folder.
+6. Open a webpage, select some text, and click the extension icon.
+7. Press **Read selected text**.
 
-1. Download or clone this repository
-2. Open Chrome browser
-3. Go to `chrome://extensions/`
-4. Enable **Developer Mode**
-5. Click **Load Unpacked**
-6. Select the project folder
-7. Open any webpage
-8. Select text
-9. Click the extension icon
-10. Press **Read Selected Text**
+## Technologies Used
 
----
+- HTML
+- CSS
+- JavaScript
+- Chrome Extension Manifest V3
+- Web Speech API
+- Chrome Extension APIs
 
-##  Language Support
-
-English (Currently Supported)  
-
-
----
-
-##  Author
+## Author
 
 Aditya Sinha
