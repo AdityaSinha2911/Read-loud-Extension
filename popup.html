@@ -1,30 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read Aloud</title>
-    <link rel="stylesheet" href="popup.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Read Aloud</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-    <h2>Read Aloud 🔊</h2>
+  <main class="app">
+    <header>
+      <div class="brand-icon" aria-hidden="true">🔊</div>
+      <div><h1>Read Aloud</h1><p>Listen to any selected text</p></div>
+    </header>
 
-    <button id="readBtn">Read Selected Text</button>
-    <!-- version 0.3 update, pause and resume button update :- -->
-    <!-- test change -->
+    <button id="readBtn" class="primary">▶ Read selected text</button>
 
-    <button id="pauseBtn">Pause</button>
+    <section class="playback" aria-label="Playback controls">
+      <button id="pauseBtn" class="control">Ⅱ Pause</button>
+      <button id="resumeBtn" class="control">▶ Resume</button>
+      <button id="stopBtn" class="control stop">■ Stop</button>
+    </section>
 
-    <button id="resumeBtn">Resume</button>
+    <section class="settings">
+      <label for="voiceSelect">Voice</label>
+      <select id="voiceSelect"><option value="">Loading voices…</option></select>
 
+      <div class="rate-heading"><label for="rateSlider">Reading speed</label><output id="rateValue">1.0×</output></div>
+      <input id="rateSlider" type="range" min="0.5" max="2" step="0.1" value="1">
+    </section>
 
-    <button id="stopBtn">Stop reading</button>
+    <p id="status" class="status" role="status" aria-live="polite">Select text on a webpage, then press Read.</p>
 
-    <p id="status">Select text on webpage first.
-        <br>
-        Made By Aditya Sinha ❤️
-    </p>
-
-    <script src="popup.js"></script>
+    <footer>
+      <span>Keyboard shortcuts</span>
+      <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> Read
+      <br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> Pause / resume
+      <br><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd> Stop
+    </footer>
+  </main>
+  <script src="popup.js"></script>
 </body>
 </html>

@@ -1,19 +1,28 @@
 {
   "manifest_version": 3,
-  "name": "Read Aloud Extension",
-  "version": "1.0",
-  "description": "Reads selected text on a webpage aloud",
-
-  "action": {
-    "default_popup": "popup.html"
-  },
-
-  "permissions": ["activeTab", "scripting"],
-
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+  "name": "Read Aloud - Accessibility Extension",
+  "version": "2.0.0",
+  "description": "Read selected webpage text aloud with playback, voice, speed and keyboard controls.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "Read Aloud" },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
+  "commands": {
+    "read-selection": {
+      "suggested_key": { "default": "Alt+Shift+R", "mac": "Alt+Shift+R" },
+      "description": "Read selected text"
+    },
+    "pause-resume": {
+      "suggested_key": { "default": "Alt+Shift+P", "mac": "Alt+Shift+P" },
+      "description": "Pause or resume speech"
+    },
+    "stop-reading": {
+      "suggested_key": { "default": "Alt+Shift+S", "mac": "Alt+Shift+S" },
+      "description": "Stop speech"
     }
-  ]
+  }
 }
